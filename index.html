@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/pic-2.jpg" alt="Priyanka Kumari" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Priyanka Kumari">Priyanka Kumari</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:priyanka392003@gmail.com" class="contact-link">priyanka392003@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 7061950128" class="contact-link">+91 7061950128</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">September 3, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Begusarai, Bihar, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Priyankakumari2003"target="blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/priyanka-kumari-03a718229/"target="blank"class="social-link">
+              <ion-icon name="logo-linkedin">
+              </ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            What's up, I'm currently pursuing my Btech degree in Information Technology
+            from Cochin University Of Science and Technology with carrer interests in
+            tech,sports,dancing,Travelling.
+
+          </p>
+
+          <p>
+            I'm self motivated girl and someone who is conscientious,Hard working and also someone who has High levels of integrity.
+            I like to do things in a right way and i also believe you only get what you want in life through hard work,dedication and commitment.
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The modern and high-quality design.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                   Development of sites.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile app Development</h4>
+
+                <p class="service-item-text">
+                  Development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/images_3D.png" alt="3D design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">3D modeling</h4>
+
+                <p class="service-item-text">
+                  3D Designing of Object
+                </p>
+              </div>
+
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+
+       
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+         <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </section>
+
+        </div>
+      
+      
+        <!--
+          - clients
+        -->
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cochin University of science and Technology, Kochi</h4>
+
+              <span>2021 - present</span>
+
+              <p class="timeline-text">
+                B.tech in Information Technology.
+                6th sem.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CMRA Government polytechnic sanghi,Rohtak,Haryana</h4>
+
+              <span>2018 - 2021</span>
+
+              <p class="timeline-text">
+                Diploma in Computer Science and engg.
+                Percentage- 86%
+                Board- HSBTE
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">L.N High School Malipur,Begusarai,Bihar</h4>
+
+              <span>2018</span>
+
+              <p class="timeline-text">
+               Class- 10th,
+               Board- BSEB,
+               Percentage- 72%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Agile and Scrum Software development Workshop Organised by TCS</h4>
+
+              <span>8 - 10 december 2022</span>
+
+              <p class="timeline-text">
+               It was indeed a great opportunity to attend a 3 days of Agile and Scrum Hands on workshop organised at my college.
+               The session was handled by the Agile Expert Mr.Vishnu Narayan B, 
+               A Resourse person from TCS group.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web development Internship</h4>
+
+              <span>Gullak(Finplex Solution private Limited)</span>
+              <span>november 2022 - January 2023</span>
+
+              <p class="timeline-text">
+               In this Internship I have learnt, How to work with real world project and
+                how to build a website using MRNE .
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">github and web development Internship</h4>
+
+              <span>Mind Empowered</span>
+              <span>June 2023 - Present</span>
+
+              <p class="timeline-text">
+                Skills that I learned during this internship include HTML, CSS,JavaScript,
+                 problem-solving, general computer skills, teamwork, self-learning, communication, creativity, logical approach to work, and good time management skills.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">3D modelling and Robotics</h4>
+
+              <span>Cusat Fab Lab</span>
+              <span>June 2023 - July 2023</span>
+              <p class="timeline-text">Processed or interpreted signals or sensor data,
+                 Demonstrated a high level of initiative and creativity while tackling difficult tasks.
+                </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming language- C & C++ language</h5>
+               
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development- HTML 5, CSS, JAVASCRIPT,MRNE stack,PHP,Bootstrap</h5>
+               
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Database- Mysql, MongoDB,Nosql,FireBase</h5>
+                
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                
+
+            </li>
+            </ul>
+            </section>
+            <section class="Fields of Interest">
+
+              <h3 class="h3 Interest-title">Fields Of Interest</h3>
+    
+              <ul class="Interest-list content-card">
+    
+                <li class="Interest-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">Web Development</h5>
+    </div>
+                </li>
+                <li class="skill-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">OO Programming and concept</h5>
+                  </div>
+                  </li>
+
+          </ul>
+
+        </section>
+        <section class="Recreational Activities">
+
+          <h3 class="h3 interest-title">Recreational Activities</h3>
+
+          <ul class="Interest-list content-card">
+
+            <li class="Interest-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Online Learning, Poem writing</h5>
+
+            </li>
+            <li class="Interest-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Playing Chess,Throwball.
+                  Dancing & Travelling</h5>
+               
+
+            </li>
+
+      </ul>
+</section>
+
+      </article>
+
+
+
+
+
+  
+
+      <!--
+        - #PROJECT
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title"> MY PROJECTS</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            
+              <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">My Project</h3>
+          </div>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Online car Rental Service</h4>
+
+              <span>Technology used- HTML,CSS,PHP.
+                <br>
+                Database- Mysql.
+              </span>
+
+              <p class="timeline-text">
+                This Car Rental System project is designed to aid the car rental company to enable renting of cars through an online system. It helps the users to search for available cars view profile and book the cars for the time period. It has a user-friendly interface which helps the user to check for cars and rent them for the period specified.
+              </p>                
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Know your github buddy</h4>
+
+              
+
+              <p class="timeline-text">
+                
+                This is a Responsive website which shows all Information like Repositories with specific stars , 
+                Languages used and Numbers of followings,followers and repositories of any github user graphically. 
+                <span>React js , Fusion chart :</span>
+                 Used to represent data graphically.  
+                <span>Axios :</span> Used to fetch user's data from github
+            
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Auto Complete</h4>
+
+              <span>Technology used- Javascript,Trie Data Structure.
+                
+              </span>
+
+              <p class="timeline-text">
+                This Project is designed to provide the feature of suggesting possible extensions to a partially written text on the basis of user input.  
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Online Portfolio</h4>
+
+              <span>Technology used- Javascript,HTML, CSS.
+                
+              </span>
+
+              <p class="timeline-text">
+                This portfolio website is a unique way to showcase my work and let others know about me.
+                It's like evergreen platform for my projects,and information about me.  
+              </p>
+            </li>
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kisaan(Currently Working)</h4>
+
+              <span>Android App.
+                
+              </span>
+
+              <p class="timeline-text">
+                
+                 This app will provide the guideline for doing scientific way of farming and also the method of crop production and crop treatment.
+                <br><br>
+                This will provide weather information and latest news related to farming.<br>
+                This app will provide the feature of farm management.
+                
+              
+              </p>
+            </li>
+            </ul>
+            <section class="projects">
+
+              <ul class="filter-list">
+    
+                <li class="filter-item">
+                  <button class="active" data-filter-btn>portfolio</button>
+                </li>
+            
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>portfolio</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pro-1.png" alt="finance" loading="lazy">
+                </figure>
+
+               
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pro-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+<li></li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pro-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Online car Rental service</h3>
+            <h3 class="project-title">PHP based</h3> </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p5_kisaan.jpg" alt="brawlhalla" loading="lazy">
+                
+                  <h3 class="project-title">Farming App</h3>
+                  <h3 class="project-title">Android development</h3>
+               </a></li>
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/autocomplete.png" alt="brawlhalla" loading="lazy">
+                </figure>
+               
+
+                <h3 class="project-title">Auto complete App</h3>
+                <h3 class="project-title">Trie data structure</h3>
+             </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/image (2).jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">displaying distance using ultrasonic sensor</h3>
+                <h3 class="project-title">3D designing and robotics</h3>
+             </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/abc2.png" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">3D designing</h3>
+                <h3 class="project-title">3D designing and robotics</h3>
+             </a>
+            </li>
+          </figure>
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/pro-4kisaan.jpg" alt="brawlhalla" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Farming App</h3>
+          <h3 class="project-title">Android development</h3>
+       </a>
+      </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+<!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.6643711633424!2d76.32252737378441!3d10.044529772269462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c37899f336f%3A0x29bf726ee74f2110!2sUniversity%20Library!5e0!3m2!1sen!2sin!4v1682704560324!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
